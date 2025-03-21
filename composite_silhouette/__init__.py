@@ -1,1 +1,1 @@
-from .statistical_composite_silhouette import StatisticalCompositeSilhouette
+from .composite_silhouette import CompSil
