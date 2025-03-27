@@ -20,3 +20,5 @@ The final score is the weighted combination of the sample averages of micro- and
 This convex combination keeps the result within the range of the individual scores and ties it meaningfully to both.
 When a statistically significant difference is found, the dominant metric receives at least 75% of the total weight, with the exact proportion adjusted based on the mean difference across subsamples. The greater this difference, the more the weighting shifts in its favor, while the other still contributes proportionally—reflecting the relative strength of both perspectives. If no significant difference is found, both sample-average metrics are weighted equally.
 
+> **Note:** The current implementation uses **K-Means** for clustering, which pairs well with silhouette-based evaluation and repeated subsampling. While the method can be adapted to other clustering algorithms, it already offers meaningful, statistically grounded insights for centroid-based clustering tasks.
+
