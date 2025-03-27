@@ -34,3 +34,15 @@ or directly from the repository:
 ```bash
 pip install git+https://github.com/semoglou/composite_silhouette.git
 ```
+
+## Quick Start
+
+```python
+from composite_silhouette import CompSil
+```
+
+### Evaluate a Range of Cluster Counts
+
+### Evaluate a Single Cluster Count
+
+
