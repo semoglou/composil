@@ -74,4 +74,24 @@ cs.plot_results()
 
 ### Evaluate a Single Cluster Count
 
+```python
+# Assume you already have your data in  X
+
+cs = CompSil(
+    data=X,
+    k_values=[4],
+    num_samples=100,
+    sample_size=500,
+    random_state=42,
+    n_jobs=-1
+)
+
+cs.evaluate()
+
+# Access the final composite silhouette score directly
+score = cs.score_
+
+# Optionally, still access the full results DataFrame
+results = cs.get_results_dataframe()
+```
 
