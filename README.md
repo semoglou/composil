@@ -27,3 +27,4 @@ You can install Composite Silhouette directly from PyPI:
 
 ```bash
 pip install composite-silhouette
+```
