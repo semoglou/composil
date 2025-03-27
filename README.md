@@ -18,5 +18,5 @@ The method performs repeated subsampled clustering to compute both micro- and ma
 A Wilcoxon signed-rank test is then applied to their paired differences across subsamples to determine if one consistently and significantly outperforms the other.
 The final score is the weighted combination of the sample averages of micro- and macro-averaged scores (*w<sub>m</sub> · S<sub>micro</sub> + (1-w)<sub>M</sub> · S<sub>macro</sub>*).
 This convex combination keeps the result within the range of the individual scores and ties it meaningfully to both.
-When a statistically significant difference is found, the dominant metric receives at least 75% of the total weight, with the exact proportion adjusted based on the mean difference across subsamples.The greater this difference, the more the weighting shifts in its favor, while the other still contributes proportionally—reflecting the relative strength of both perspectives.
+When a statistically significant difference is found, the dominant metric receives at least 75% of the total weight, with the exact proportion adjusted based on the mean difference across subsamples. The greater this difference, the more the weighting shifts in its favor, while the other still contributes proportionally—reflecting the relative strength of both perspectives.
 
