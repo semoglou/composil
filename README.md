@@ -46,17 +46,17 @@ from composite_silhouette import CompSil
 from sklearn.datasets import make_blobs
 
 # Generate synthetic 2D data
-X, y_true =
+X, y_true = make_blobs(n_samples=2000, centers=4, cluster_std=1.1, random_state=42)
 
 # Initialize the Composite Silhouette evaluation
 cs = CompSil(
-    data=X,
-    k_values=range(2, 11),       # Evaluate cluster counts from 2 to 10
-    num_samples=100,             # Number of random subsamples per k
-    sample_size=500,             # Number of points in each subsample
-    random_state=42,             # Ensures reproducibility
-    n_jobs=-1,                   # Use all available CPU cores
+    data=X,                        # ndarray or DataFrame
     ground_truth=len(set(y_true))  # (Optional) for visual reference in plots
+    k_values=range(2, 11),         # Evaluate cluster counts from 2 to 10
+    num_samples=500,               # Number of random subsamples per k
+    sample_size=100,               # Number of points in each subsample
+    random_state=42,               # Ensures reproducibility
+    n_jobs=-1                      # Use all available CPU cores for parallel computation
 )
 
 # Run the evaluation for all specified cluster counts
@@ -75,8 +75,6 @@ cs.plot_results()
 ### Evaluate a Single Cluster Count
 
 ```python
-# Assume you already have your data in  X
-
 cs = CompSil(
     data=X,
     k_values=4
