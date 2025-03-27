@@ -22,3 +22,8 @@ When a statistically significant difference is found, the dominant metric receiv
 
 > **Note:** The current implementation uses **K-Means** for clustering, which pairs well with silhouette-based evaluation and repeated subsampling. While the method can be adapted to other clustering algorithms, it already offers meaningful, statistically grounded insights for centroid-based clustering tasks.
 
+## Installation 
+You can install Composite Silhouette directly from PyPI: 
+
+```bash
+pip install composite-silhouette
