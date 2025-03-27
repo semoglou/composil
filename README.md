@@ -103,5 +103,5 @@ Additional usage examples and experimental results can be found in the [`results
 - [`performance.ipynb`](results/performance.ipynb)  
   Composite silhouette evaluation results on both synthetic and real-world datasets, including clustering quality and optimal k detection.
 
-These notebooks provide deeper insight into the method's behavior and demonstrate how to apply it in practical settings.
+These notebooks provide insight into the method's behavior and demonstrate how to apply it in practical settings.
 
