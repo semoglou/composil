@@ -29,7 +29,7 @@ You can install Composite Silhouette directly from [PyPI](https://pypi.org/proje
 pip install composite-silhouette
 ```
 
-or install directly from the GitHub repository: 
+or directly from the repository: 
 
 ```bash
 pip install git+https://github.com/semoglou/composite_silhouette.git
