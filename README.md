@@ -10,9 +10,9 @@ The framework is especially useful for data scientists, ML engineers, and resear
 ## Overview and Methodology 
 In standard clustering evaluation, the **silhouette coefficient** is widely used to measure how well each data point fits into its cluster in terms of intra-cluster cohesion and inter-cluster separation.
 It can be aggregated as:
-- **Micro-average:** The overall average silhouette score across all data points
-- **Macro-average:** The per-cluster average silhouette score  
-   (A detailed implementation can be found at [ipavlopoulos/revisiting-silhouette-aggregation](https://github.com/ipavlopoulos/revisiting-silhouette-aggregation)).
+- **Micro-average:** The overall average silhouette score across all data points.
+- **Macro-average:** The per-cluster average silhouette score.    
+   (A detailed implementation can be found at [ipavlopoulos/revisiting-silhouette-aggregation](https://github.com/ipavlopoulos/revisiting-silhouette-aggregation).)
 
 **Composite Silhouette** merges these two perspectives using a statistically-driven weighting strategy.
 The method performs repeated subsampled clustering to compute both micro- and macro-averaged silhouette scores.
