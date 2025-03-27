@@ -72,8 +72,9 @@ best_k = cs.get_optimal_k()
 cs.plot_results()
 ```
 
-<img src="results/plot_example.png" alt="Composite Silhouette Plot" width="600"/>
-
+<p align="center">
+  <img src="results/plot_example.png" alt="Composite Silhouette Plot" width="600"/>
+</p>
 
 ### Evaluate a Single Cluster Count
 
