@@ -16,10 +16,7 @@ It can be aggregated as:
 **Composite Silhouette** merges these two perspectives using a statistically-driven weighting strategy.
 The method performs repeated subsampled clustering to compute both micro- and macro-averaged silhouette scores.
 A Wilcoxon signed-rank test is then applied to their paired differences across subsamples to determine if one consistently and significantly outperforms the other.
-The final score is the weighted combination of the sample averages of micro- and macro-averaged scores:
-
-*w<sub>m</sub> · S<sub>micro</sub> + w<sub>M</sub> · S<sub>macro</sub>*
-
+The final score is the weighted combination of the sample averages of micro- and macro-averaged scores: *w<sub>m</sub> · S<sub>micro</sub> + w<sub>M</sub> · S<sub>macro</sub>*
 This convex combination keeps the result within the range of the individual scores and ties it meaningfully to both.
 When a statistically significant difference is found, more weight (at least 75%) is assigned to the dominant metric, while the other still contributes proportionally to the average difference.
 
