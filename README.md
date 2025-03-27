@@ -99,10 +99,10 @@ results = cs.get_results_dataframe()
 Additional usage examples and experimental results can be found in the [`results/`](results/) folder:
 
 - [`example.ipynb`](results/example.ipynb)  
-  Basic usage of Composite Silhouette on synthetic data, demonstrating the full pipeline and visualization.
+  Basic usage of Composite Silhouette on synthetic data.
 
 - [`performance.ipynb`](results/performance.ipynb)  
-  Composite silhouette evaluation results on both synthetic and real-world datasets, including clustering quality and optimal k detection.
+  Composite silhouette evaluation results on both synthetic and real-world datasets.
 
 These notebooks provide insight into the method's behavior and demonstrate how to apply it in practical settings.
 
