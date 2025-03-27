@@ -8,7 +8,7 @@ This provides a more nuanced assessment of clustering quality, helping identify 
 The framework is especially useful for data scientists, ML engineers, and researchers who want reliable metrics for centroid-based clustering.
 
 ## Overview and Methodology 
-In standard clustering evaluation, the **silhouette coefficient** is widely used to measure how well each data point fits into its cluster, in terms of intra-cluster cohesion and inter-cluster separation,
-and can be aggregated as:
+In standard clustering evaluation, the **silhouette coefficient** is widely used to measure how well each data point fits into its cluster in terms of intra-cluster cohesion and inter-cluster separation.
+It can be aggregated as:
 - **Micro-average:** The overall average silhouette score computed across all data points.
 - **Macro-average:** The average of the per-cluster silhouette scores.
