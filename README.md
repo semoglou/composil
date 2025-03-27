@@ -42,6 +42,35 @@ from composite_silhouette import CompSil
 ```
 
 ### Evaluate a Range of Cluster Counts
+```python
+from sklearn.datasets import make_blobs
+
+# Generate synthetic 2D data
+X, y_true =
+
+# Initialize the Composite Silhouette evaluation
+cs = CompSil(
+    data=X,
+    k_values=range(2, 11),       # Evaluate cluster counts from 2 to 10
+    num_samples=100,             # Number of random subsamples per k
+    sample_size=500,             # Number of points in each subsample
+    random_state=42,             # Ensures reproducibility
+    n_jobs=-1,                   # Use all available CPU cores
+    ground_truth=len(set(y_true))  # (Optional) for visual reference in plots
+)
+
+# Run the evaluation for all specified cluster counts
+cs.evaluate()
+
+# Retrieve a DataFrame summarizing the results for each k
+results_df = cs.get_results_dataframe()
+
+# Get the k with the highest composite silhouette score
+best_k = cs.get_optimal_k()
+
+# Plot the silhouette scores and highlight the best k
+cs.plot_results()
+```
 
 ### Evaluate a Single Cluster Count
 
