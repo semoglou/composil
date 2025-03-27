@@ -79,7 +79,7 @@ cs.plot_results()
 
 cs = CompSil(
     data=X,
-    k_values=[4],
+    k_values=4,
     num_samples=100,
     sample_size=500,
     random_state=42,
