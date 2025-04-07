@@ -30,7 +30,7 @@ You can install Composite Silhouette from [PyPI](https://pypi.org/project/compos
 pip install composite-silhouette
 ```
 
-or directly from the repository: 
+or directly from the GitHub repository: 
 
 ```bash
 pip install git+https://github.com/semoglou/composite_silhouette.git
@@ -106,3 +106,6 @@ Additional usage examples and experimental results can be found in the [`results
 
 These notebooks provide insight into the method's behavior and demonstrate how to apply it in practical settings.
 
+#
+
+<p align="center"><sub>Composite Silhouette · v0.1.0 · Last updated: 04/2025 · MIT License</sub></p>
