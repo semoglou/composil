@@ -106,6 +106,10 @@ Additional usage examples and experimental results can be found in the [`results
 
 These notebooks provide insight into the method's behavior and demonstrate how to apply it in practical settings.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 #
 
 <p align="center"><sub>Composite Silhouette · v0.1.0 · Last updated: 04/2025 · MIT License</sub></p>
