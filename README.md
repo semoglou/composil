@@ -72,7 +72,7 @@ cs.plot_results()
 ```
 
 <p align="center">
-  <img src="results/plot_example.png" alt="Composite Silhouette Plot" width="600"/>
+  <img src="https://raw.githubusercontent.com/semoglou/composite_silhouette/main/results/plot_example.png" alt="Composite Silhouette Plot" width="600"/>
 </p>
 
 ### Evaluate a Single Cluster Count
@@ -96,17 +96,17 @@ results = cs.get_results_dataframe()
 
 Additional usage examples and experimental results can be found in the [`results/`](results/) folder:
 
-- [`example.ipynb`](results/example.ipynb)  
+- [`example.ipynb`](https://raw.githubusercontent.com/semoglou/composite_silhouette/main/results/example.ipynb)  
   Basic usage of Composite Silhouette on synthetic data.
 
-- [`performance.ipynb`](results/performance.ipynb)  
+- [`performance.ipynb`](https://raw.githubusercontent.com/semoglou/composite_silhouette/main/notebooks/performance.ipynb)  
   Composite silhouette evaluation results on both synthetic and real-world datasets.
 
 These notebooks provide insight into the method's behavior and demonstrate how to apply it in practical settings.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://raw.githubusercontent.com/semoglou/composite_silhouette/main/LICENSE).
 
 #
 
