@@ -1,7 +1,5 @@
 # Composite Silhouette 
 
-[![PyPI Version](https://img.shields.io/pypi/v/composite-silhouette?logo=pypi)](https://pypi.org/project/composite-silhouette/)
-
 Composite Silhouette is a Python package for robust clustering evaluation.
 It introduces a composite metric that combines micro-averaged and macro-averaged silhouette using statistical weighting.
 This provides a more nuanced assessment of clustering quality, helping identify the optimal number of clusters and compare performance across different clustering scenarios with greater confidence.
