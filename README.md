@@ -96,17 +96,17 @@ results = cs.get_results_dataframe()
 
 Additional usage examples and experimental results can be found in the [`results/`](results/) folder:
 
-- [`example.ipynb`](https://raw.githubusercontent.com/semoglou/composite_silhouette/main/results/example.ipynb)  
+- [`example.ipynb`](https://github.com/semoglou/composite_silhouette/blob/main/results/example.ipynb)  
   Basic usage of Composite Silhouette on synthetic data.
 
-- [`performance.ipynb`](https://raw.githubusercontent.com/semoglou/composite_silhouette/main/results/performance.ipynb)  
+- [`performance.ipynb`](https://github.com/semoglou/composite_silhouette/blob/main/results/performance.ipynb)  
   Composite silhouette evaluation results on both synthetic and real-world datasets.
 
 These notebooks provide insight into the method's behavior and demonstrate how to apply it in practical settings.
 
 ## License
 
-This project is licensed under the [MIT License](https://raw.githubusercontent.com/semoglou/composite_silhouette/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/semoglou/composite_silhouette/blob/main/LICENSE).
 
 #
 
