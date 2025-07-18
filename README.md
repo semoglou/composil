@@ -10,7 +10,6 @@ In standard clustering evaluation, the **silhouette coefficient** is widely used
 It can be aggregated as:
 - **Micro-average:** The overall average silhouette score across all data points.
 - **Macro-average:** The per-cluster average silhouette score.  
-(A detailed implementation can be found at [ipavlopoulos/revisiting-silhouette-aggregation](https://github.com/ipavlopoulos/revisiting-silhouette-aggregation).)
 
 **Composite Silhouette** merges these two perspectives using a statistically-driven weighting strategy.
 The method performs repeated subsampled clustering to compute both micro- and macro-averaged silhouette scores.
@@ -22,7 +21,7 @@ When a statistically significant difference is found, the dominant metric receiv
 > **Note:** The current implementation uses **K-Means** for clustering, which pairs well with silhouette-based evaluation and repeated subsampling. While the method can be adapted to other clustering algorithms, it already offers meaningful, statistically grounded insights for centroid-based clustering tasks.
 
 ## Installation 
-You can install Composite Silhouette from [PyPI](https://pypi.org/project/composite-silhouette/): 
+You can install Composite Silhouette from PyPI: 
 
 ```bash
 pip install composite-silhouette
