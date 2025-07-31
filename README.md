@@ -30,7 +30,7 @@ pip install composite-silhouette
 or directly from the GitHub repository: 
 
 ```bash
-pip install git+https://github.com/semoglou/composite_silhouette.git
+pip install git+https://github.com/semoglou/composil.git
 ```
 
 ## Quick Start
