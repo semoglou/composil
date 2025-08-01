@@ -1,4 +1,4 @@
-# Composite Silhouette 
+# CompoSil
 
 Composite Silhouette is a Python package for robust clustering evaluation.
 It introduces a composite metric that combines micro-averaged and macro-averaged silhouette using statistical weighting.
